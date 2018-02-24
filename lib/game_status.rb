@@ -14,3 +14,6 @@ def win_combinations = [
   [0,4,8],
   [2,4,6]
 ]
+
+def won_board(board)
+end
