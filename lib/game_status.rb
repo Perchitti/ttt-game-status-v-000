@@ -29,3 +29,4 @@ def full(board)
     false
   else
 end
+end
