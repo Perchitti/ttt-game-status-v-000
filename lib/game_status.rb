@@ -25,8 +25,5 @@ end
 
 
 def full(board)
-  if [1,2,3,4,5,6,7,8].detect{|i| i.is_a?(String)}
-    false
-  else
-end
+board.all?{|i| i = "X" || i = "O"}
 end
