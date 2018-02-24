@@ -25,7 +25,7 @@ end
 
 
 def full(board)
-  if [1,2,3,4].detect{|i| i.is_a?(String)}
+  if [1,2,3,4,5,6,7,8].detect{|i| i.is_a?(String)}
     false
   else
 end
