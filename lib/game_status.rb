@@ -22,3 +22,10 @@ def won?(board)
     position_taken?(board, position[0])
   end
 end
+
+
+def full(board)
+  if [1,2,3,4].detect{|i| i.is_a?(String)}
+    false
+  else
+end
